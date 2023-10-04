@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+   /* flex: 1;*/
+}
+li{
+    list-style-type: none;
+}
+a{
+font-weight: 600;
+text-decoration: none;
+color: #1E2D78;
+font-family: 'Open Sans';
+font-size: 16px;
+font-style: normal;
+padding: 0px;
+}

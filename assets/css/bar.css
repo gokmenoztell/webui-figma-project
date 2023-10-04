@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.navbar{
+    padding: 0 40px;
+}
+.topbar{
+    background-color: #1E2D78;
+    padding: 0.1rem;
+    height: 40px;
+}
+.writing{
+    padding: 10px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.phoneimg{
+    padding: 0px 15px 2px 0px;
+}
+.navigationimg{
+    padding: 0px 15px 0 0px;
+}
+
+.left-writing{
+    display: flex;
+    justify-content: flex-start;
+}
+.right-writing{
+    display: flex;
+    justify-content: flex-end;
+}
+.firstbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+/* .allsmileslogo{
+    padding: 40px 0 0 40px;
+} */
+.nav-wrapper{
+    display: flex
+    
+}
+
+.nav-wrapper ul{
+    padding: 0;
+}
+.nav-wrapper ul li a{
+    padding: 70px;
+}
+.section{
+    background-color: black;
+}
