@@ -58,8 +58,6 @@ header .container{
     justify-content: space-between;
     height: 100px;
 }
-
-
 .nav-wrapper{
     display: flex
     
@@ -68,7 +66,7 @@ header .container{
     padding: 0;
 }
 .nav-wrapper ul li a{
-    padding: 70px;
+    margin: 40px;
 }
 .section{
     background-color: black;
