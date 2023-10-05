@@ -8,6 +8,7 @@
   <link href="assets/css/text.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/burgermenu.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>ALL SMILES</title>
 
 </head>
@@ -32,7 +33,7 @@
     <div class="navbar">
       <div class="container">
         <nav class="firstbar">
-          <div class="left-navwrapper">
+          <div class="mid-navwrapper">
             <a href="webui.html"><img class="allsmileslogo" src="assets/img/logo-allsmiles.png.png"></a>
           </div>
           <div class="nav-wrapper">
@@ -58,7 +59,7 @@
             </ul>
           </div>
         <div class="search">
-            <span>SEARCH</span>
+            <span>SEARCH</span><img src="assets/img/span.qodef-m-lines.png">
           </div> 
         </nav>
       </div>
@@ -66,22 +67,40 @@
   </header>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <section>
-    <img class="content-doctorimg" src="assets/img/doctor.png">
-  </section>
+  <div class="sayfa">
+    <div class="sliderKonum">
+      <div class="w3-content w3-display-container">
+        <img class="mySlides" src="assets/img/doctor.png" style="width:100%">
+        <img class="mySlides" src="https://www.w3schools.com/w3css/img_lights.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.w3schools.com/w3css/img_mountains.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.w3schools.com/w3css/img_forest.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </div>
+</div>
  
+
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+  
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
 
 </body>
 
