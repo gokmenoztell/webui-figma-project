@@ -4,7 +4,6 @@
 }
 .sliderKonum{
     position: relative;
-    width: px;
     height: 655px;
     overflow: hidden;
 }
@@ -64,20 +63,20 @@
 
 
   /*slidert kodları */
-  .w3-content {
+  /*.w3-content {
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
 }
 .w3-display-container{
   position: relative;
-}
+}*/
+
 *{
  /* box-sizing: inherit;*/
 }
 
 .w3-display-left {
-  position: absolute;
   top: 50%;
   left: 0%;
   transform: translate(0%,-50%);}
@@ -85,13 +84,9 @@
     border-radius: 4px;
     position: fixed;
     border: none;
-    display: inline-block;
-    padding: 8px 16px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: inherit;
-    background-color: inherit;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
@@ -101,8 +96,7 @@
     margin-left: 2rem;
 }
 .w3-button:hover {
-  color: #000!important;
-  background-color: #ccc!important;
+ 
 }
 .w3-display-right {
   margin-right: 2rem;
@@ -117,5 +111,6 @@
     position: fixed;
     max-width: 1920px;
     max-height: 650px;
+    object-fit: cover;
 
 }
