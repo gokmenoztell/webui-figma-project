@@ -28,6 +28,7 @@
     /* animation-duration: 10s; */
     /* animation-iteration-count:infinite; */
   }
+
   @-webkit-keyframes sliders{
     0% {left:0px;}
     10% {left:0px;}
@@ -72,12 +73,9 @@
   position: relative;
 }
 *{
-  box-sizing: inherit;
+ /* box-sizing: inherit;*/
 }
-.w3-black {
-  color: #1E2D78!important;
-  background-color: white!important;
-}
+
 .w3-display-left {
   position: absolute;
   top: 50%;
@@ -99,8 +97,7 @@
     white-space: nowrap;
     width: 51px;
     height: 55px;
-    /* padding: 0 0 0 0px; */
-    position: fixed;
+     padding: 0 0 5px 0; 
     margin-left: 2rem;
 }
 .w3-button:hover {
@@ -109,7 +106,6 @@
 }
 .w3-display-right {
   margin-right: 2rem;
-  position: fixed;
   top: 50%;
   right: 0%;
   transform: translate(0%,-50%);
@@ -117,8 +113,9 @@
 }
 .mySlides{
   width: 100%;
-    display: block;
     box-sizing: inherit;
     position: fixed;
+    max-width: 1920px;
+    max-height: 650px;
 
 }

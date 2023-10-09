@@ -33,8 +33,8 @@
     <div class="navbar">
       <div class="container">
         <nav class="firstbar">
-          <div class="mid-navwrapper">
-            <a href="webui.html"><img class="allsmileslogo" src="assets/img/logo-allsmiles.png.png"></a>
+          <div class="page-wrapper">
+            <a href="webui.html"><img src="assets/img/logo-allsmiles.png.png"></a>
           </div>
           <div class="nav-wrapper">
             <ul>
@@ -75,33 +75,34 @@
         </div>
 
         <div class="slider-wrapper">
-          <img class="mySlides" src="https://www.w3schools.com/w3css/img_lights.jpg" style="width:100%">
+          <img class="mySlides" src="assets/img/dental-bays-article.jpg" style="width:100%">
         </div>
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
       </div>
     </div>
 </div>
+
  
 
 <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
+ var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-  
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    x[slideIndex-1].style.display = "block";  
-  }
+  x[slideIndex-1].style.display = "block";
+}
   </script>
 
 </body>
