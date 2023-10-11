@@ -41,16 +41,19 @@ header .container{
     padding: 0px 15px 2px 0px;
 }
 .navigationimg{
-    padding: 0px 15px 0 0px;
+    padding: 0px 5px 0 0px;
 }
 
 .left-writing{
     display: flex;
     justify-content: flex-start;
+    padding: 2rem;
 }
 .right-writing{
+    width: 656px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
 .firstbar{
     display: flex;
@@ -63,11 +66,18 @@ header .container{
     
 }
 .nav-wrapper ul{
-    padding: 0;
-}
+    padding: 0px 1rem 0px 2rem;}
 .nav-wrapper ul li a{
-    margin: 40px;
-}
-.section{
+    margin: 35px;}
+/*.section{
     background-color: black;
+}*/
+
+.phonewrapper{
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper{
+    display: flex;
+    align-items: center;
 }

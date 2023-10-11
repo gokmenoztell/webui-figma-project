@@ -6,24 +6,24 @@ ul {
 li{
     list-style-type: none;
 }
-a{
-font-weight: 600;
-text-decoration: none;
-color: #1E2D78;
-font-family: 'Open Sans';
-font-size: 16px;
-font-style: normal;
-padding: 0px;
-}
-.w3-black {
-    color: #1E2D78!important;
-    background-color: white!important;
+
+.searchh-burger{
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-font-size: 50px;
-    align-items: center
-   
+    align-items: center;
 }
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+
+
+
+
+
 
   

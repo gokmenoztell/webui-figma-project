@@ -4,32 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link href="assets/css/bar.css" rel="stylesheet">
   <link href="assets/css/text.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/slider.css" rel="stylesheet">
   <link href="assets/css/burgermenu.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-  <title>ALL SMILES</title>
+  <link href="assets/css/search.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
+  <title>ALL SMILES</title>
 </head>
 
+
 <body>
+  <!-- Topbar -->
   <header>
     <div class="topbar">
       <div class="container">
         <div class="left-writing">
           <p>Mon - Sat 8:00 17:30, Sunday - CLOSED</p>
         </div>
+
         <div class="right-writing">
-          <img class="phoneimg" src="assets/img/phone logo.png">
-          <p>+654/4715-167</p>
-          <p2>allsmiles@qodeinteractive.com</p2>
-          <img class="navigationimg" src="assets/img/navigation logo.png">
-          <p3>63 Wall St, New York, NY 10005</p3>
+          <div class="phonewrapper">
+            <img class="phoneimg" src="assets/img/phone logo.png">
+            <a class="phonenumber" href="tel:+654/4715-167">+654/4715-167</a>
+          </div>
+         
+          <div class="mail">
+            <a href="mailto:allsmiles@qodeinteractive.com">allsmiles@qodeinteractive.com</a>
+          </div>
+         
+          <div class="navigation-wrapper">
+            <img class="navigationimg" src="assets/img/navigation logo.png">
+            <a class="navigation-adress"
+              href="https://www.google.com.tr/maps/dir//63+Wall+St,+New+York,+NY+10005,+Amerika+Birle%C5%9Fik+Devletleri/@40.7058541,-74.0114013,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a165d56ac01:0x71f4345645607aea!2m2!1d-74.0088264!2d40.7058501?hl=tr&entry=ttu">63
+              Wall St, New York, NY 10005</a>
+          </div>
         </div>
       </div>
     </div>
+    <!-- Topbar -->
 
+    <!-- navbar -->
     <div class="navbar">
       <div class="container">
         <nav class="firstbar">
@@ -39,71 +57,125 @@
           <div class="nav-wrapper">
             <ul>
               <li>
-                <a href="home">HOME</a>
+                <a href="webui.html">HOME</a>
               </li>
               <li>
-                <a href="home">PAGES</a>
+                <a href="webui.html">PAGES</a>
               </li>
               <li>
-                <a href="home">STAFF</a>
+                <a href="webui.html">STAFF</a>
               </li>
               <li>
-                <a href="home">BLOG</a>
+                <a href="webui.html">BLOG</a>
               </li>
               <li>
-                <a href="home">SHOP</a>
+                <a href="webui.html">SHOP</a>
               </li>
               <li>
-                <a href="home">LANDİNG</a>
+                <a href="webui.html">LANDİNG</a>
               </li>
             </ul>
           </div>
-          <div class="search">
-            <span>SEARCH</span>
-          </div>
+          <div class="searchh-burger">
+            <div role="search" class="search-bar">
+              <div id="searchToggle">
+                <input type="checkbox" class="checkbox">SEARCH</input>
+                <div id="searchId">
+                  <label for="">Arama yapınız</label>
+                  <input type="text">
+                </div>
+              </div>
+            </div>
+
+            <nav role="navigation" class="mobile-menu-content">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <div class="menuu-wrapper">
+                    <img src="assets/img/logo-allsmiles.png.png">
+                  </div>
+                  <a href="webui.html">
+                    <li>HOME</li>
+                  </a>
+                  <a href="webui.html">
+                    <li>PAGES</li>
+                  </a>
+                  <a href="webui.html">
+                    <li>STAFF</li>
+                  </a>
+                  <a href="webui.html">
+                    <li>BLOG</li>
+                  </a>
+                  <a href="webui.html">
+                    <li>SHOP</li>
+                  </a>
+                  <a href="webui.html">
+                    <li>LANDİNG</li>
+                  </a>
+                </ul>
+              </div>
+            </nav>
         </nav>
       </div>
     </div>
+
   </header>
+  <!-- navbar -->
 
 
-  <div class="sayfa">
-    <div class="sliderKonum">
-      <div class="slider-wrapper">
-        <img class="mySlides" src="assets/img/doctor.png">
-      </div>
 
-      <div class="slider-wrapper">
-        <img class="mySlides" src="assets/img/dental-bays-article.jpg" style="width:100%">
-      </div>
-      <div class="content-buttons">
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <!-- SLİDER -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="assets/img/doctor.png"></div>
+      <div class="swiper-slide"><img src="assets/img/dental-bays-article.jpg"></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- SLİDER -->
+
+  <section>
+    <div class="card-wrapper">
+      <div class="card-outer">
+        <div class="card">
+          <img src="assets/img/h1-img-1.jpg.png">
+          <h1>Pick the dentist that fits all your needs the best</h1>
+          <p>Lorem ipsum dolo.</p>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
 
 
-  <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
 
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
 
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = x.length }
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex - 1].style.display = "block";
-    }
-  </script>
+
+
+
+
+  </section>
+
 
 </body>
 
