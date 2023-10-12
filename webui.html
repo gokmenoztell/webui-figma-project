@@ -3,8 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- FONT LİNKLERİ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Open+Sans:wght@600&display=swap"
+    rel="stylesheet">
+  <!-- FONT LİNKLERİ -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link href="assets/css/bar.css" rel="stylesheet">
   <link href="assets/css/text.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
@@ -12,7 +20,6 @@
   <link href="assets/css/burgermenu.css" rel="stylesheet">
   <link href="assets/css/search.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
   <title>ALL SMILES</title>
 </head>
 
@@ -31,21 +38,21 @@
             <img class="phoneimg" src="assets/img/phone logo.png">
             <a class="phonenumber" href="tel:+654/4715-167">+654/4715-167</a>
           </div>
-         
+
           <div class="mail">
             <a href="mailto:allsmiles@qodeinteractive.com">allsmiles@qodeinteractive.com</a>
           </div>
-         
+
           <div class="navigation-wrapper">
             <img class="navigationimg" src="assets/img/navigation logo.png">
             <a class="navigation-adress"
-              href="https://www.google.com.tr/maps/dir//63+Wall+St,+New+York,+NY+10005,+Amerika+Birle%C5%9Fik+Devletleri/@40.7058541,-74.0114013,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a165d56ac01:0x71f4345645607aea!2m2!1d-74.0088264!2d40.7058501?hl=tr&entry=ttu">63
-              Wall St, New York, NY 10005</a>
+              href="https://www.google.com.tr/maps/dir//63+Wall+St,+New+York,+NY+10005,+Amerika+Birle%C5%9Fik+Devletleri/@40.7058541,-74.0114013,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25a165d56ac01:0x71f4345645607aea!2m2!1d-74.0088264!2d40.7058501?hl=tr&entry=ttu">63Wall
+              St, New York, NY 10005</a>
           </div>
         </div>
       </div>
     </div>
-    <!-- Topbar -->
+
 
     <!-- navbar -->
     <div class="navbar">
@@ -113,7 +120,7 @@
                     <li>SHOP</li>
                   </a>
                   <a href="webui.html">
-                    <li>LANDİNG</li>
+                    <li>LANDING</li>
                   </a>
                 </ul>
               </div>
@@ -123,40 +130,84 @@
     </div>
 
   </header>
-  <!-- navbar -->
 
 
 
-  <!-- SLİDER -->
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="assets/img/doctor.png"></div>
-      <div class="swiper-slide"><img src="assets/img/dental-bays-article.jpg"></div>
+  <div class="content-wrapper">
+    <div class="viewmore-purchase-button">
+      <div class="viewmore">
+        <a href="">VIEW MORE</a>
+      </div>
+      <div class="purchase">
+        <a href="">PURCHASE</a>
+      </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
-  <!-- SLİDER -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/img/doctor.png">
 
-  <section>
+         
+
+          <div class="content1-text">
+            <div class="text1">
+              <span>DENTAL PRATİCE</span>
+            </div>
+           </div>
+
+            <div class="content2-text">
+              <div class="text2">
+                <span>We provide the best</span>
+              </div>
+            </div>
+
+            <div class="content3-text">
+              <div class="text3">
+                <span>services out there</span>
+              </div>
+            </div>
+
+            
+    
+        </div>
+        
+
+        <div class="swiper-slide">
+          <img src="assets/img/dental-bays-article.jpg">
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+    <!-- <section>
     <div class="card-wrapper">
       <div class="card-outer">
         <div class="card">
@@ -168,13 +219,7 @@
     </div>
 
 
-
-
-
-
-
-
-  </section>
+  </section> -->
 
 
 </body>
