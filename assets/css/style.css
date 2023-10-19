@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
   }
   .tablecardBody{
-    background-color:pink;
+    background-color:#FFF2F2;;
     width: 413px;
 height: 474px;
 flex-shrink: 0;
@@ -37,6 +37,7 @@ flex-shrink: 0;
     padding: 0 10px;
     max-width: 440px;
   }
+  
   .cardBody{
     text-align: left;
   }
@@ -55,15 +56,21 @@ flex-shrink: 0;
     margin-block-end: 0em;
     padding-inline-start: 0px;
     padding-top: 2rem;
-    padding-left: 1.5rem;
+    padding-left: 0rem;
     letter-spacing: 0.7px;
   }
   .cardWrapper .card li{
-    padding: 10px;
+    padding: 7px 7px 7px 0;
     list-style-type: none;
+    
   }
   .cardWrapper .card .cardImg{
     width: 415px;
+  }
+  .cardWrapper .card .cardImg{
+    width: 413.328px;
+    height: 254.703px;
+    flex-shrink: 0;
   }
   header .topbar .container .left-writing p{
     color: #FFF;
@@ -73,7 +80,59 @@ font-style: normal;
 font-weight: 400;
 line-height: 21.671px; /* 166.7% */
   }
-  
+  .cardWrapper .card li:before{
+    content:"+";
+    font-size: 17.5px;
+    color:#F4572E;
+    padding-right: 0.7rem;
+}
+  .tabletext span{
+    color: #1E2D78;
+font-family: Catamaran;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 71.429% */
+padding-top: 6rem
+  }
+  .tabletext{
+    display: flex;
+    height: 58px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0.5rem;
+}
+.solotext{
+  margin-top: 3rem;
+}
+.solotext span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: #656565;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-top: 20px;
+}
+.solotext div{
+  width: 189.766px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    color: #F4572E;
+    border-bottom: 1px dashed;
+    padding-top: 0.7rem;
+}
+.card-endFooter{
+  back
+}
+
 
 
 

@@ -181,6 +181,7 @@ text-transform: uppercase;
 p{
     color: #8A8A8A;
     font-family: Open Sans;
+    text-align: justify;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
