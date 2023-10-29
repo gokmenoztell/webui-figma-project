@@ -20,16 +20,16 @@ body {
     overflow-x: hidden;
   }
   .tablecardBody{
-    background-color:#FFF2F2;;
+    background-color: #FFF2F2;
     width: 413px;
-height: 474px;
-flex-shrink: 0;
+    height: 556px;
+    flex-shrink: 0;
+    margin-left: 0.4rem;
   }
   .cardWrapper{
     display: flex;
-    padding: 0 30px;
-    margin: 9.3rem -10px;
     justify-content: center;
+    padding-top: 150px;
   }
   .card{
     flex: 1;
@@ -55,12 +55,12 @@ flex-shrink: 0;
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-inline-start: 0px;
-    padding-top: 2rem;
+    padding-top: 2.1rem;
     padding-left: 0rem;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.3px;
   }
   .cardWrapper .card li{
-    padding: 7px 7px 7px 0;
+    padding: 4px 8px 7px 0;
     list-style-type: none;
     
   }
@@ -72,71 +72,110 @@ flex-shrink: 0;
     height: 254.703px;
     flex-shrink: 0;
   }
-  header .topbar .container .left-writing p{
-    color: #FFF;
-font-family: Open Sans;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 21.671px; /* 166.7% */
-  }
-  .cardWrapper .card li:before{
-    content:"+";
-    font-size: 17.5px;
-    color:#F4572E;
-    padding-right: 0.7rem;
-}
-  .tabletext span{
-    color: #1E2D78;
-font-family: Catamaran;
-font-size: 35px;
-font-style: normal;
-font-weight: 600;
-line-height: 25px; /* 71.429% */
-padding-top: 6rem
-  }
-  .tabletext{
-    display: flex;
-    height: 58px;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    margin-left: 0.5rem;
-}
-.solotext{
-  margin-top: 3rem;
-}
-.solotext span{
+ 
+
+.cardWrap5{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  color: #656565;
+  flex-wrap: wrap;
+  padding: 152px 310px 0 310px;
+}
+
+.ztu{
+  padding-top: 143px;
+}
+.allcaption img{
+  position: absolute;
+  padding-top: 1rem;
+}
+.allcaption{
+  display: flex;
+    padding-top: 70px;
+}
+
+.değerler{
+ 
+}
+.slider-yapımı{
+  height: 512px
+}
+.nanoname{
+  padding-top: 140px;
+}
+.değerler .renklen{
+  color: #F4572E;
+  font-family: Catamaran;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43.995px;
+}
+.değerler .renklen2{
+  color: #FFF;
   font-family: Open Sans;
-  font-size: 15px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
-  padding-top: 20px;
+  line-height: 30px; /* 157.895% */
 }
-.solotext div{
-  width: 189.766px;
-    height: 1px;
-    flex-shrink: 0;
-    opacity: 0.6;
-    color: #F4572E;
-    border-bottom: 1px dashed;
-    padding-top: 0.7rem;
-}
-.card-endFooter{
-  back
+.değerler{
+  background: #2E3192;
+  display: flex;
+  /* width: 1920px;
+  height: 213.984px; */
+  padding: 70px 310px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
 
+.spanlarım{
+  display: flex;
+  padding-right: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -0.016px;
+}
+
+.lazımoldu{
+  padding-right: 440px
+}
 
 
-
-
-  
+  .prtscrn{
+    display: flex;
+width: 1920px;
+padding: 120px 310px 124px 310px;
+flex-direction: column;
+align-items: flex-start;
+gap: 41px;
+background: #FFF2F2;
+  }
+  .yazilarim{
+    color: #1E2D78;
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.004px;
+    padding: 10px 77px 0;
+    width: 82vw;
+    display:flex
+  }
+  .yazilarim .bozuyor{
+    padding: 0 157px 0 0;
+    cursor: pointer;
+  }
+  .yazilarim .ittir{
+    padding: 0px 163px 0 0;
+    cursor: pointer;
+    }
+    .yazilarim .ittir2{
+      padding: 0 163px 0 0;
+      cursor: pointer;
+      }
+      .yazilarim .ittir3{
+        cursor: pointer;
+        }

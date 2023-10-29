@@ -47,7 +47,7 @@ header .container{
 .left-writing{
     display: flex;
     justify-content: flex-start;
-    padding: 2rem;
+    padding: 0.5rem 0px 0px 30px;
 }
 .right-writing{
     width: 656px;
@@ -69,9 +69,7 @@ header .container{
     padding: 0px 1rem 0px 2rem;}
 .nav-wrapper ul li a{
     margin: 35px;}
-/*.section{
-    background-color: black;
-}*/
+
 
 .phonewrapper{
     display: flex;
