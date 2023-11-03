@@ -66,7 +66,7 @@ text-transform: uppercase;
 
 
 
-  .butonumm{
+  .footer-button{
     border-radius: 5px;
     background: #FFF;
     display: flex;
@@ -76,7 +76,7 @@ text-transform: uppercase;
     cursor: pointer;
   
   }
-  .butonumm:hover{
+  .footer-button:hover{
     border-radius: 5px;
     background: #F4572E;
     display: flex;
@@ -85,7 +85,7 @@ text-transform: uppercase;
     justify-content: center;
     transition: all 0.3s linear; 
   }
-  .butonumm:hover a{
+  .footer-button:hover a{
     color: #FFF;
   }
 
@@ -123,13 +123,15 @@ text-transform: uppercase;
     overflow: hidden;
     padding-top: 8rem;
     display: flex;
-    width: 1920px;
+   /* width: 1920px;*/
     padding: 130px 310px 124px 310px;
     align-items: flex-start;
     gap: 41px;
     flex-wrap: nowrap;
     background: #FFF2F2; 
-  height: 750px;}
+  height: 750px;
+  width: -webkit-fill-available;
+}
 
 
     .tabs [class^="tab"] label,

@@ -132,6 +132,7 @@ line-height: 77px; /* 118.462% */
 }
 .cardWrapper .card .text{
     padding-top: 1.2rem;
+    text-align: start;
 }
 p{
     color: #8A8A8A;
@@ -159,9 +160,10 @@ line-height: 25.004px; /* 131.6% */
   font-style: normal;
   font-weight: 400;
   line-height: 25.005px; /* 166.7% */
-  width: 330px;
+  /*width: 330px;*/
   padding: 6.5px 29px;
       letter-spacing: 0.5px;
+      width: -webkit-fill-available;
   }
   .cardList ul li span{
     color: #8A8A8A;
@@ -203,9 +205,9 @@ line-height: 25.004px; /* 131.6% */
     flex-shrink: 0;
   }
   .text-leftWrapper{
-   
+    padding: 0px 0rem 0px 100px;
   }
-  p1{
+  .textİnform{
     display: flex;
     width: 510.325px;
     height: 120px;
@@ -222,54 +224,21 @@ line-height: 25.004px; /* 131.6% */
   
   }
   .cardLeft{
+    width: -webkit-fill-available;
     background-color: #EEF7FF;
-    width: 902.391px;
-    height: 705.719px;
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-bottom: 130px;
-    padding-left: 85px;
+    width: 902.391px;
+    height: 705.719px;
+    flex-shrink: 0;
   }
   
   
-  .textzrata .kararsız{
-    color: #D33;
-  text-align: center;
-  font-family: Open Sans;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 25.005px; /* 192.346% */
-  letter-spacing: 1.69px;
-  text-transform: uppercase;
-  }
-  .textzrata .kararsız2{
-    color: #1E2D78;
-  text-align: center;
-  font-family: Catamaran;
-  font-size: 52px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 60.008px; /* 115.4% */
-  }
-  .textzrata .kararsız3{
-    color: #8A8A8A;
-  text-align: center;
-  font-family: Open Sans;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px; /* 157.895% */
-  }
-  .textzrata{
-    display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
-  }
-  .solotext span{
+  
+  
+  .table-writing span{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -282,7 +251,7 @@ line-height: 25.004px; /* 131.6% */
     line-height: 25px;
     padding-top: 20px;
   }
-  .solotext div{
+  .table-writing div{
     width: 189.766px;
       height: 1px;
       flex-shrink: 0;
@@ -322,7 +291,7 @@ line-height: 25.004px; /* 131.6% */
     justify-content: center;
    flex-direction: column;
   }
-  .tabletext span{
+  .table-text span{
     color: #1E2D78;
 font-family: Catamaran;
 font-size: 35px;
@@ -331,6 +300,20 @@ font-weight: 600;
 line-height: 25px; /* 71.429% */
 padding-top: 6rem
   }
+  .table-text{
+    display: flex;
+    height: 58px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+.table-writing{
+  margin-top: 3rem;
+  padding: 0px 25px 0 25px;
+}
+
   header .topbar .container .left-writing p{
     color: #FFF;
 font-family: Open Sans;
@@ -345,20 +328,34 @@ line-height: 21.671px; /* 166.7% */
     color:#F4572E;
     margin: 0px 15px 0px 3px;
 }
+.tab-text h4{
+  color: #1E2D78;
+  font-family: Catamaran;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43.995px; /* 125.7% */
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.tab-text span{
+  color: #656565;
+  font-family: Open Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 157.895% */
+}
+.tab-text p{
+  color: #656565;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.005px; /* 166.7% */
+}
 
-  .tabletext{
-    display: flex;
-    height: 58px;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    
-}
-.solotext{
-  margin-top: 3rem;
-  padding: 0px 25px 0 25px;
-}
+  
      
 
 
@@ -422,3 +419,4 @@ line-height: 21.671px; /* 166.7% */
         line-height: 56px;
     }*/
 
+   

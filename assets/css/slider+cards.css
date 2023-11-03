@@ -1,0 +1,218 @@
+.content5-slider {
+    padding-top: 143px;
+  }
+  .title-wrap{
+    display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .title-wrap .title-span{
+    color: #D33;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.005px; /* 192.346% */
+  letter-spacing: 1.69px;
+  text-transform: uppercase;
+  }
+  .title-wrap .title-span2{
+    color: #1E2D78;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60.008px; /* 115.4% */
+  }
+  .title-wrap .title-span3{
+    color: #8A8A8A;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 157.895% */
+  }
+  .slider {
+    max-width: 100rem;
+    height: 32rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .slide {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    transition: transform 1s;
+    justify-content: center;
+    transition: transform 1s;
+    /*transform: translateX(0%);*/
+  }
+  .testimonial {
+    width: 87%;
+    position: relative;
+  }
+  
+  
+  
+  .testimonial__header {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  .testimonial__text {
+    font-size: 1.7rem;
+    margin-bottom: 3.5rem;
+    color: #666;
+  }
+  
+  .testimonial__author {
+    margin-top: 5.4rem;
+      margin-left: 0rem;
+      font-style: normal;
+      display: flex;
+      grid-template-columns: 6.5rem 1fr;
+      column-gap: 2rem;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .testimonial__photo {
+    grid-row: 1 / span 2;
+    width: 6.5rem;
+    border-radius: 50%;
+  }
+  
+  .testimonial__name {
+    font-size: 1.7rem;
+    font-weight: 500;
+    align-self: end;
+    margin: 0;
+  }
+  
+  .testimonial__location {
+    font-size: 1.5rem;
+  }
+  
+  .section__title--testimonials {
+    margin-bottom: 4rem;
+  }
+  .testimonial__author img{
+    width: 140px;
+      height: 140px;
+      flex-shrink: 0;
+  }
+  .testimonialspan1{
+    color: #1E2D78;
+text-align: center;
+font-family: Catamaran;
+font-size: 27px;
+font-style: normal;
+font-weight: 600;
+line-height: 34.992px; /* 129.6% */
+  }
+  .testimonialspan2{
+    color: #8A8A8A;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.005px; /* 166.7% */
+  }
+  .testimonialspan3{
+    padding-top: 2rem;
+    color: #D33;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25.005px; /* 192.346% */
+    letter-spacing: 1.69px;
+    text-transform: uppercase;
+  }
+  .customerWrapper{
+    display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .customer-card{
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customerText{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+  height: 167.984px;
+  flex-shrink: 0;
+  padding-top: 2rem;
+  }
+  .fastY{
+    position: relative;
+  }
+  .fastY img{
+    width: 140px;
+      height: 140px;
+  }
+  .VYE{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #2E3192;
+    color: #FFF;
+  }
+  .VYE img{
+    width: 27px;
+      height: 27px
+  }
+  .tabs-img{
+    padding-left: 11rem;
+  }
+
+  .video-container {
+    position: relative;
+    cursor: pointer;
+}
+
+#thumbnail {
+  width: 1017.594px;
+    height: 705.719px;
+}
+
+#play-button {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  background: #FFF;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#video {
+    display: none;
+}
