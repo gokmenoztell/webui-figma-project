@@ -677,3 +677,6 @@ textarea {
     height: 40px;
     object-fit: contain;
 }
+.img768{
+  position: absolute; 
+}
