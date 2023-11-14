@@ -530,8 +530,9 @@ align-items: center;
   transform: rotate(20deg);
 }
 .tab-text{
-  padding-right: 10px;
-  width: 43%;
+ position: relative;
+  width: 45%;
+    margin-right: 45rem;
 }
 .randomm{
   position: absolute !important;
